@@ -1,0 +1,33 @@
+<!--pages/my/my.wxml-->
+<view class="top">
+   <open-data style="width: 100rpx;height: 100rpx;position: absolute;margin-top: 33%;" type="userAvatarUrl"></open-data>
+   <image class="top_img" src="../../images/background_my_2.jpg"></image>
+</view>
+
+<view class="center_nei">
+
+       <view class="center_nei1" catchtap="go_class">
+              <view class="center_nei12">
+                    <image style="width: 40rpx;height: 40rpx;" src="/images/banji.png"></image>
+                    <view style="margin-left: 20rpx;font-size: 30rpx;">我的班级</view>
+              </view>
+              <image style="width: 40rpx;height: 40rpx;" src="/images/right.png"></image>
+       </view>
+       <view class="center_nei1"  catchtap="go_qiandao">
+              <view class="center_nei12">
+                    <image style="width: 40rpx;height: 40rpx;" src="/images/my_qiandao.png"></image>
+                    <view style="margin-left: 20rpx;font-size: 30rpx;">我的签到</view>
+              </view>
+              <image style="width: 40rpx;height: 40rpx;" src="/images/right.png"></image>
+       </view>
+       <button style="font-size: 30rpx;width: 117%;margin-left: -50rpx;" open-type="feedback" >
+          <view class="center_nei1">  
+                  <view class="center_nei12">
+                        <image style="width: 40rpx;height: 40rpx;" src="/images/bi.png"></image>
+                        <view style="margin-left: 20rpx;font-size: 30rpx;">意见反馈</view>
+                  </view>
+                  <image style="width: 40rpx;height: 40rpx;" src="/images/right.png"></image>
+          </view>
+      </button>
+</view>
+
